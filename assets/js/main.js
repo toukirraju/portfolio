@@ -111,6 +111,36 @@ let swiper = new Swiper(".portfolio__container", {
   keyboard: true,
 });
 
+/*==================== Contact ME ====================*/
+
+function sendMail() {
+  let params = {
+    from_name: document.getElementById("name").value,
+    email_id: document.getElementById("email").value,
+    project: document.getElementById("project").value,
+    message: document.getElementById("message").value,
+  };
+
+  if (
+    params.from_name === "" ||
+    params.email_id === "" ||
+    params.project === "" ||
+    params.message === ""
+  ) {
+    alert("Please fillup all filed");
+  } else {
+    emailjs
+      .send("service_7zb7crh", "template_g4g9w4r", params)
+      .then(function (res) {
+        document.getElementById("name").value = null;
+        document.getElementById("email").value = null;
+        document.getElementById("project").value = null;
+        document.getElementById("message").value = null;
+        alert("Success! " + res.status);
+      });
+  }
+}
+
 /*==================== TESTIMONIAL ====================*/
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
