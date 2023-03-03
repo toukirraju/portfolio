@@ -411,6 +411,46 @@ img {
 }
 
 /*==================== SKILLS ====================*/
+
+.new__skills > div{
+  /* background: #000; */
+  
+}
+.new__skills__title{
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 900;
+}
+.skills__conditions{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+.content{
+  height: 100px;
+  width: 100px;
+  transition: 0.7s all ease-in-out;
+}
+.content:hover {
+  cursor: pointer;
+  -ms-transform: scale(1.3); /* IE 9 */
+  -webkit-transform: scale(1.3); /* Safari 3-8 */
+  transform: scale(1.3); 
+}
+
+.content img{
+  object-fit: cover;
+}
+
+
+
+
+
+/* old */
+
 .skills__container {
   row-gap: 0;
 }
