@@ -164,6 +164,13 @@ img {
   align-items: center;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 40px;
+}
 .nav__logo,
 .nav__toggle {
   color: var(--title-color);
@@ -299,6 +306,8 @@ img {
 
 .home__description {
   margin-bottom: var(--mb-2);
+  text-align: justify;
+  font-size: 16px;
 }
 
 .home__scroll {
@@ -371,6 +380,13 @@ img {
 }
 
 /*==================== ABOUT ====================*/
+.about__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
 .about__img {
   width: 200px;
   border-radius: 0.5rem;
@@ -379,7 +395,7 @@ img {
 }
 
 .about__description {
-  text-align: center;
+  text-align: justify;
   margin-bottom: var(--mb-2-5);
 }
 
@@ -412,16 +428,15 @@ img {
 
 /*==================== SKILLS ====================*/
 
-.new__skills > div{
+.new__skills > div {
   /* background: #000; */
-  
 }
-.new__skills__title{
+.new__skills__title {
   text-align: center;
   padding: 10px 0;
   font-weight: 900;
 }
-.skills__conditions{
+.skills__conditions {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
@@ -429,7 +444,7 @@ img {
   align-items: center;
   margin: 10px 0;
 }
-.content{
+.content {
   height: 100px;
   width: 100px;
   transition: 0.7s all ease-in-out;
@@ -438,18 +453,14 @@ img {
   cursor: pointer;
   -ms-transform: scale(1.3); /* IE 9 */
   -webkit-transform: scale(1.3); /* Safari 3-8 */
-  transform: scale(1.3); 
+  transform: scale(1.3);
 }
 
-.content img{
+.content img {
   object-fit: cover;
   height: 100px;
   width: 100px;
 }
-
-
-
-
 
 /* old */
 
@@ -752,8 +763,83 @@ img {
   overflow: initial;
 }
 
+.more__button {
+  margin: auto;
+  display: block;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 10px 30px;
+  border: 3px solid rgb(82, 82, 82);
+  color: #555555;
+  font-weight: bold;
+}
+
+.more__button:hover {
+  background: #b8b8b8;
+  cursor: pointer;
+  border: 3px solid rgb(232, 253, 251);
+  color: #fff;
+}
+
 .portfolio__content {
   padding: 0 1.5rem;
+  display: grid;
+}
+
+.thumbnail {
+  position: relative;
+}
+
+.thumbnail img {
+  opacity: 1;
+  border-radius: 0.8rem;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.thumbnail:hover img {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.thumbnail:hover .middle {
+  opacity: 1;
+}
+
+.preview__button {
+  display: flex;
+  gap: 5px;
+}
+.preview__button a {
+  display: flex;
+  background-color: rgba(59, 59, 59, 0.06);
+  color: white;
+  border: 1px solid white;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 4px 4px;
+  border-radius: 5px;
+}
+
+.preview__button a:hover {
+  background-color: rgba(59, 59, 59, 0.6);
+  color: white;
+  border: 1px solid rgb(121, 121, 121);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s ease;
 }
 
 .portfolio__img {
@@ -946,7 +1032,7 @@ img {
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 567px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -981,6 +1067,23 @@ img {
   .services__modal {
     padding: 0 0.5rem;
   }
+  .portfolio__content {
+    grid-template-columns: auto;
+  }
+
+  .thumbnail img {
+    backface-visibility: unset;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  .middle {
+    opacity: 1;
+  }
+  .preview__button a {
+    background-color: rgba(59, 59, 59, 0.8);
+    color: white;
+    border: 1px solid white;
+  }
 }
 
 /* For medium devices */
@@ -1003,6 +1106,7 @@ img {
   .contact__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
   }
 
   .qualification__sections {
@@ -1081,7 +1185,7 @@ img {
     width: 350px;
   }
   .about__description {
-    text-align: initial;
+    text-align: justify;
   }
   .about__info {
     justify-content: space-between;
@@ -1159,7 +1263,8 @@ img {
   }
 
   .portfolio__content {
-    column-gap: 5rem;
+    gap: 0.5rem;
+    grid-template-columns: auto auto auto;
   }
 
   .swiper-portfolio-icon {

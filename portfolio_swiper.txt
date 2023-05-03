@@ -1,0 +1,259 @@
+<div class="swiper-wrapper swiper-slide">
+
+            <!--==================== PORTFOLIO 1 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/homefyDashboardLogo.png"
+                alt="owner dashboard"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">HomeFy (Dashboard)</h3>
+                <p class="portfolio__description">
+                  HomeFy is a real estate app that aims to connect homeowners who are looking to rent out their 
+                  properties with potential renters. The app has two user ends, one for normal users and one for 
+                  homeowners.
+                </p>
+                <a
+                  href="https://dashboard.homefy.billfactor.xyz/auth" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://github.com/toukirraju/homeFy_v2" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Code
+                  <i class="uil uil-github button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/homeFylogo.png"
+                alt="owner dashboard"
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">HomeFy (Client)</h3>
+                <p class="portfolio__description">
+                  HomeFy is a real estate app that aims to connect homeowners who are looking to rent out their 
+                  properties with potential renters. The app has two user ends, one for normal users and one for 
+                  homeowners.
+                  <hr/>
+                  Comming soon....
+                </p>
+                <a
+                  href="#" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://github.com/toukirraju/homeFy_v2/tree/main/client" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Code
+                  <i class="uil uil-github button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/Billfactor.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">BillFactor</h3>
+                <p class="portfolio__description">
+                  It is kind of rental management system. By this app home owner can store all the bill and tenant information.
+                </p>
+                <a
+                  href="https://billfactor.xyz" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://github.com/toukirraju/BillFactor_Final" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Code
+                  <i class="uil uil-github button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 4 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/messFactor.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Mess Factor</h3>
+                <p class="portfolio__description">
+                  It is mess management system. All calculations of the mess can be done through this app.
+                </p>
+                <a
+                  href="https://messfactor.herokuapp.com/" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://github.com/toukirraju/MessFactor" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Code
+                  <i class="uil uil-github button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 4 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/socialmedia.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Social Media</h3>
+                <p class="portfolio__description">
+                  It is simple social media app.
+                </p>
+                
+                <a
+                  href="https://github.com/toukirraju/Social_Media_App" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Code
+                  <i class="uil uil-github button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 4 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/scoreboard.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Score Board</h3>
+                <p class="portfolio__description">
+                  It is scoreboard app. It implement with Vanilla Redux
+                </p>
+                <a
+                  href="https://scoreboard-tar.netlify.app/" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://github.com/Learn-with-Sumit/batch-2---assignment-1---scoreboard-toukirraju" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Code
+                  <i class="uil uil-github button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 4 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/ticketbooking.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Ticket Booking</h3>
+                <p class="portfolio__description">
+                  It is simple ticket booking app. It implement with ReactJs and  Redux
+                </p>
+                <a
+                  href="https://ticketbooking-a2-tar.netlify.app/" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://github.com/Learn-with-Sumit/batch-2---assignment-2---flight-booking-toukirraju" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Code
+                  <i class="uil uil-github button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 5 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/cart.png"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Shopping Cart</h3>
+                <p class="portfolio__description">
+                  It is Shopping Cart app. It implement with ReactJs and  Redux
+                </p>
+                <a
+                  href="https://shoppingcart-tar.netlify.app/" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                  target="_blank"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+                <a
+                  href="https://github.com/Learn-with-Sumit/batch-2---assignment-3---product-cart-toukirraju" target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Code
+                  <i class="uil uil-github button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            
+          </div>
+
+          <!-- add arrow button -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <!-- add pagination -->
+          <div class="swiper-pagination"></div>
